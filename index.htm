@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authenticate User Sign in Page</title>
+    <!-- <link rel="stylesheet" href="kex.css"> -->
+    <link rel="stylesheet" href="sign_in.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo"><h1>Kex<span>traco</span></h1></div>
+        <div class="wrapper">
+        <div class="items"><a class="nav-link" 
+            aria-current="page" 
+            href="/"> HOME</a></div>
+        <div class="items"><a class="nav-link" 
+            href="/profile">PROFILE</a></div>    
+        <div class="items"><a href="">ABOUT US</a></div>
+        <div class="items"><a href="">OUR SERVICES</a></div>
+        <div class="items"><a href="">CONTACT US</a></div>
+        <div class="items"><a href="">DESIGNS</a></div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="contain">
+        <div class="image">
+            <img src="../views/11 black-investor.jpg" alt="">
+        </div>
+        <div class="warp">
+            <div class="panel">
+                <form action="/login" method="POST">
+                    <h1>Welcome Back</h1>
+                    <p class="title">Sign into your account</p>
+                    <div class="box"><input type="text" placeholder="Email Address"></div>
+                    <div class="box"><input type="password" placeholder="Password"></div>
+                    <button> Login 
+                    </button>
+                    <div class="itema">
+                        <a href="#">Forgot password</a>
+                        <p class="register">Don't have an account?</p>
+                        <a class="btn btn-outline-success" href="/register">Register</a>
+            
+                        <a class="btn btn-outline-primary" href="/login">Login</a>
+            
+                        <a class="btn btn-outline-danger" href="/logout">Logout</a>
+            
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
