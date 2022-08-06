@@ -9,5 +9,8 @@ VIEW folder include all images, HTML and CSS files.
 Others are without Folder
  Thanks for your understanding
 
+screen shot of server 
 
 https://github.com/GenzyBassey/authentication-system/blob/dca216867c377a166a5fc277cc5be71fef343a1d/screen%201.png
+
+https://github.com/GenzyBassey/authentication-system/blob/d03c5f5b44fc4d726827e6f99a21866530931220/screen%202.png
