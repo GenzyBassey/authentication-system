@@ -1,3 +1,0 @@
-[submodule "authentication-system"]
-	path = authentication-system
-	url = git@github.com:GenzyBassey/authentication-system.git
